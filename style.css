@@ -9,10 +9,6 @@ a:hover{
 a:hover:after{
   content: "_"; 
 }
-.page{
-  min-height: 100vh;
-  padding-bottom: 2000px;
-}
 .code{
   font-size: 1.1rem;
   border-radius: 3px;
@@ -31,8 +27,6 @@ header{
   color: white;
   background: #0d7963;
   text-align: center;
-  box-shadow: 5px 5px 20px #888888;
-
 }
 header .h2{
   color: red;
@@ -43,6 +37,7 @@ h2{
 }
 
 ul{
+  min-height: 60vh;
   padding: 30px 40px;
   background: #efe8b9;
   color: #a57700;
@@ -68,7 +63,10 @@ footer a{
 footer a:hover{
   color: white;
 }
-
+/* View */
+.shadow{
+  box-shadow: 5px 5px 20px #888888;
+}
 
 /* animation*/
 
