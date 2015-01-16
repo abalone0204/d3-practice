@@ -1,9 +1,11 @@
+/* Index */
 a{
   text-decoration: none;
   color: #a46600;
 }
 
 .code{
+  font-size: 1.25rem;
   border-radius: 3px;
   font-family: monospace;
   background: #002934;
@@ -36,8 +38,10 @@ ul{
   background: #efe8b9;
   color: #a57700;
 }
-
-
+li{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
 footer{
   margin-left: -10px;

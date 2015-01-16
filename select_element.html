@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Denny's D3 practice</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>How to select element in d3.js</h2>
+      </header>
+      <section>
+        <p>This is the very first step learning d3.js, we must know how to select the element.</p>
+        <p>
+          It's very similar to jQuery, just using console in your browser to check it out.
+        </p>
+      </section>
+      <div class="container">
+        <h3>Demo example</h3>
+        <h3>Another demo example</h3>
+      </div>
+      <ul>
+        <li>
+          Try <div class="code">d3.select("h3")</div> to get the first <div class="code">h3</div>, assign it to <div class="code">h3</div>.
+        </li>
+        <li>
+          Like <div class="code">addClass("className")</div> in jQuery, we have <div class="code">h3.class("my-class")</div>
+        </li>
+        <li>
+          You may notice it would replace all the class, so you can add specific class by using <div class="code">h3.classed("another-class", true)</div>, remove by <div class="code">h3.classed("another-class", false)</div>
+        </li>
+        <li></li>
+      </ul>
+      <a href="index.html">Back to menu</a>
+    </div>
+
+    <footer>
+      <a href="http://kutj.logdown.com/" target="_blank">Denny's Blog</a>
+    </footer>
+    <script src="d3.min.js"></script>
+  </body>
+</html>
