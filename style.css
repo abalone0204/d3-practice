@@ -1,0 +1,33 @@
+.code{
+  border-radius: 3px;
+  font-family: monospace;
+  background: #002934;
+  color: #278bd2;
+  padding: 3px;
+  display: inline-block;
+}
+
+body{
+  padding: 30px 150px;
+}
+header{
+  padding: 20px 30px;
+  color: white;
+  background: #0d7963;
+  text-align: center;
+  box-shadow: 5px 5px 20px #888888;
+
+}
+header .h2{
+  color: red;
+}
+h2{
+  letter-spacing:2px;
+  font-weight: 600;
+}
+
+ul{
+  padding: 30px 40px;
+  background: #efe8b9;
+  color: #a57700;
+}
