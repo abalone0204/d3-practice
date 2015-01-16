@@ -3,9 +3,18 @@ a{
   text-decoration: none;
   color: #a46600;
 }
-
+a:hover{
+  font-weight: 800;
+}
+a:hover:after{
+  content: "_"; 
+}
+.page{
+  min-height: 100vh;
+  padding-bottom: 2000px;
+}
 .code{
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   border-radius: 3px;
   font-family: monospace;
   background: #002934;
@@ -44,11 +53,11 @@ li{
 }
 
 footer{
+  /*position: fixed;*/
   margin-left: -10px;
   padding: 20px 20px;
-  height: 5vh;
+  height: 60px;
   width: 100%;
-  position: fixed;
   bottom: 0;
   background: #2a3744;
 }
@@ -58,4 +67,26 @@ footer a{
 }
 footer a:hover{
   color: white;
+}
+
+
+/* animation*/
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes blink {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+} 
+
+/* Standard syntax */
+@keyframes blink {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+} 
+
+a:hover:after{
+    margin-left: 5px;
+    -webkit-animation: blink 0.8s linear 0.1s infinite ; /* Chrome, Safari, Opera */
+    animation: blink 0.8s linear 0.1s infinite ; /* Standard syntax */
 }

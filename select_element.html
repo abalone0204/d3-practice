@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <div class="container page">
       <header>
         <h2>How to select element in d3.js</h2>
       </header>
@@ -30,9 +30,20 @@
         <li>
           You may notice it would replace all the class, so you can add specific class by using <div class="code">h3.classed("another-class", true)</div>, remove by <div class="code">h3.classed("another-class", false)</div>
         </li>
-        <li></li>
+        <li>
+          And you can use <div class="code">h3.attr("attribute", "value")</div> to add attribute and assign value to it.
+        </li>
+        <li>
+          Using <div class="code">h3.style("color", red)</div> to change color.
+        </li>
+        <li>
+          And we can use <div class="code">h3.selectAll("h3")</div> to select multiple elements.
+        </li>
+        <li>
+          Just play around in console.
+        </li>
       </ul>
-      <a href="index.html">Back to menu</a>
+      <a href="index.html" class="back">Back to menu</a>
     </div>
 
     <footer>
