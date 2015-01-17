@@ -10,16 +10,25 @@
       <header class="shadow">
         <h2>S</h2>
       </header>
-      <div class="container demo">
-        
-      </div>
       <section>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            Before start talking about scale, there are several things need to be clearified. <br>
+            Assume that we have a svg element which has <div class="code">height = 300</div> and <div class="code">width = 400</div>, what if we now encounter a large value in our dataset which is over 300? Or an small value dataset like <div class="code">[1, 2, 3, 4]</div> which is very hard to tell the difference between each of them in a 300*300 canvas.
+          </li>
+          <li>
+            That's why we use scale. How does it work? Now we want to visualize this array <div class="code">[1, 2, 3, 4]</div> on a canvas(width: 400, height:400). We first get the partition in dataset(1 => 1/4), and we convert it on the view side(1/4 * 400 = 100). (Using height or width depends on what you need)
+          </li>
+          <li><div class="code">domain()</div> is for data</li>
+          <li><div class="code">range()</div> is for view</li>
+          <li>Know above is enough to use scale, it's very powerful and simple.</li>
+          <li>Check the graph beside. Orange one is non-scaled, the blue one is applied to height scale.
+          </li>
+          <li>Note: Scale can also apply to color.</li>
         </ul>
+        <div class="container demo">
+          
+        </div>
       </section>
       <a href="../index.html" class="back">Back to menu</a>
     </div>
