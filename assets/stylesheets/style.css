@@ -9,15 +9,6 @@ a:hover{
 a:hover:after{
   content: "_"; 
 }
-.code{
-  font-size: 1.1rem;
-  border-radius: 3px;
-  font-family: monospace;
-  background: #002934;
-  color: #278bd2;
-  padding: 3px;
-  display: inline-block;
-}
 
 .container{
   padding: 30px 150px;
@@ -66,6 +57,16 @@ footer a:hover{
 /* View */
 .shadow{
   box-shadow: 5px 5px 20px #888888;
+}
+
+.code{
+  font-size: 1.1rem;
+  border-radius: 3px;
+  font-family: monospace;
+  background: #002934;
+  color: #278bd2;
+  padding: 3px;
+  display: inline-block;
 }
 
 /* animation*/
