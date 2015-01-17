@@ -1,0 +1,1 @@
+d3.select("h2").text("Scale in d3.js");
