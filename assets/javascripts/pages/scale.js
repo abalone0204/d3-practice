@@ -30,6 +30,7 @@ svg.selectAll("rect")
     fill: "tomato"
   });
 d3.select(".demo").append("br");
+
 var svg2 = d3.select(".demo")
   .append("svg")
   .attr({
