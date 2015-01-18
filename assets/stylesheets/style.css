@@ -60,6 +60,8 @@ footer a:hover{
 }
 
 .code{
+  margin-left: 4px;
+  margin-right: 4px;
   font-size: 1.1rem;
   border-radius: 3px;
   font-family: monospace;
