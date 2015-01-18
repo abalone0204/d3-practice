@@ -5,7 +5,7 @@ d3.select("h2").text("Interact with d3.js(Add event)");
 var w = 800,
   h = 600,
   margin = {
-    left: 40,
+    left: 50,
     right: 20,
     bottom: 20,
     top: 40
@@ -117,6 +117,7 @@ canvas.on("click", function() {
     .data(data);
 
   circles.transition()
+    .ease("elastic")
     .attr(circleAttr);
   circles.enter()
     .append("circle")
